@@ -18,6 +18,6 @@ public class Trawler extends Ship{
 
     @Override
     public String vesselDetails() {
-        return super.vesselDetails() + " Cargo in tonnage = " + cargo;
+        return super.vesselDetails() + "  Cargo in tonnage = " + cargo;
     }
 }

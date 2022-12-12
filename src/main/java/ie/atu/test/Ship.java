@@ -39,6 +39,6 @@ public class Ship {
     }
 
     public String vesselDetails() {
-        return "name = "+name+"Year = "+year + "Minimum Number of crew = " + crew;
+        return "Name = "+name+" Year = "+year + " Minimum number of crew = " + crew;
     }
 }
