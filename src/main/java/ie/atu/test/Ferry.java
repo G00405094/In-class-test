@@ -16,8 +16,9 @@ public class Ferry extends Ship{
         this.passengers = passengers;
     }
 
+
     @Override
-    public String toString() {
-        return super.toString() + " maximum number of passengers = " + passengers;
+    public String vesselDetails() {
+        return super.vesselDetails() + " maximum number of passengers = " + passengers;
     }
 }

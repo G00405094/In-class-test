@@ -38,8 +38,7 @@ public class Ship {
         this.crew = crew;
     }
 
-    @Override
-    public String toString() {
-        return "name = "+name+"Year = "+year + "Minimum Number of crew = " + crew+ super.toString();
+    public String vesselDetails() {
+        return "name = "+name+"Year = "+year + "Minimum Number of crew = " + crew;
     }
 }
