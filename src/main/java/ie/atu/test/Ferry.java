@@ -19,6 +19,6 @@ public class Ferry extends Ship{
 
     @Override
     public String vesselDetails() {
-        return super.vesselDetails() + " maximum number of passengers = " + passengers;
+        return super.vesselDetails() + "  Maximum number of passengers = " + passengers;
     }
 }
