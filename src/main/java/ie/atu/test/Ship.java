@@ -37,4 +37,9 @@ public class Ship {
     public void setCrew(int crew) {
         this.crew = crew;
     }
+
+    @Override
+    public String toString() {
+        return "name = "+name+"Year = "+year + "Minimum Number of crew = " + crew+ super.toString();
+    }
 }
